@@ -1,0 +1,21 @@
+{
+    "name": "huyingkeji/qdgpaysdk",
+    "description": "渠道鸽支付sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhe",
+            "email": "1061180002@qq.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HuYingKeJi\\Qdgpaysdk\\": "src/"
+        }
+    }
+}
